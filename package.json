@@ -1,0 +1,40 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@sendgrid/mail": "^7.1.1",
+    "bcrypt": "^4.0.1",
+    "bcryptjs": "^2.4.3",
+    "chalk": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.2",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.15",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "sharp": "^0.25.3",
+    "validator": "^13.0.0",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start":"node src/index.js",
+    "dev":"env-cmd -f ./config/dev.env nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
